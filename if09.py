@@ -15,7 +15,5 @@ def main(a):
     s=a%10
     n=a//10
     new=s*10+n
-    if new>=a:
-        return "True"
-    else:
-        return "False"
+    return a>=new
+print(main(17))
