@@ -27,4 +27,7 @@ def main(a,b,c):
         n+=1
     if c<0:
         n+=1
-    return n,p
+    if n>p:
+        return "there are a lot of negative numbers"
+    else:
+        return "there are a lot of positive numbers",
