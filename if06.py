@@ -13,4 +13,18 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    n=0
+    p=0
+    if a>0:
+        p+=1
+    if b>0:
+        p+=1
+    if c>0:
+        c+=1
+    if a<0:
+        n+=1
+    if b<0:
+        n+=1
+    if c<0:
+        n+=1
+    return n,p
