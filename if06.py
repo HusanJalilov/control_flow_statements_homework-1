@@ -32,5 +32,5 @@ def main(a,b,c):
 
     if n>p:
         return "there are a lot of negative numbers"
-    else:
-        return "there are a lot of positive numbers",
+    if p>n:
+        return "there are a lot of positive numbers"
