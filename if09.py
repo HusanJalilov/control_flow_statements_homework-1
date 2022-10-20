@@ -16,4 +16,3 @@ def main(a):
     n=a//10
     new=s*10+n
     return a>=new
-print(main(17))
